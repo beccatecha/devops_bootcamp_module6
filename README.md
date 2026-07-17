@@ -1,8 +1,11 @@
-markdown# Nexus Deployment Lab
+# Nexus Deployment Lab
 
-The project was successfully built and deployed to a temporary Nexus droplet instance.
+The project was successfully built and deployed to a temporary Nexus droplet.
 
+<details>
+<summary>📋 Click to view deployment logs</summary>
 
+```text
 [INFO] --- install:3.1.4:install (default-install) @ java-maven-app ---
 [INFO] Installing /Users/beccab/workspace/bootcamp/java-maven-app/pom.xml to /Users/beccab/.m2/repository/com/example/java-maven-app/1.1.0-SNAPSHOT/java-maven-app-1.1.0-SNAPSHOT.pom
 [INFO] Installing /Users/beccab/workspace/bootcamp/java-maven-app/target/java-maven-app-1.1.0-SNAPSHOT.jar to /Users/beccab/.m2/repository/com/example/java-maven-app/1.1.0-SNAPSHOT/java-maven-app-1.1.0-SNAPSHOT.jar
@@ -24,3 +27,7 @@ Uploaded to nexus-snapshots: http://64.23.238.120:8081/repository/maven-snapshot
 [INFO] Total time:  56.906 s
 [INFO] Finished at: 2026-07-17T16:03:11-07:00
 [INFO] ------------------------------------------------------------------------
+```
+
+</details>
+
